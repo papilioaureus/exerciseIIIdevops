@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "containerRegistryName": {
+      "value": "katheContainers"
+    },
+    "appServicePlanName": {
+      "value": "katheASP"
+    },
+    "webAppName": {
+      "value": "katheAS"
+    },
+    "containerRegistryImageName": {
+      "value": "myapp"
+    },
+    "containerRegistryImageVersion": {
+      "value": "latest"
+    },
+    "location": {
+      "value": "Australia Central"
+    }
+  }
+}
