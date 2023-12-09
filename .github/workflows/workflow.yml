@@ -36,5 +36,5 @@ jobs:
 
       - uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ vars.WEB_APP_NAME }}
+          app-name: ${{ vars.WEB_APP }}
           images: "${{vars.DOCKER_REGISTRY_SERVER_URL}}/${{env.IMAGE_NAME}}:latest"
