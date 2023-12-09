@@ -1,4 +1,4 @@
-name: Reggaeton champan pam pam pam 
+name: Webapp deployment
 on: [push, workflow_dispatch]
 
 env:
